@@ -5,8 +5,8 @@
 
 <html>
 	<head>
-		<base href="https://cdn.jsdelivr.net/gh/genizy/polytrack@c380635f829bdfb8ceef43710c4f1907115e9ea7/">
-		<link rel="manifest" href="https://cdn.jsdelivr.net/gh/genizy/polytrack@c380635f829bdfb8ceef43710c4f1907115e9ea7/manifest.json" />
+		<base href="https://cdn.jsdelivr.net/gh/genizy/polytrack@98ca4cbe31442f57b8ebd05e85254f01a01b49a3/">
+		<link rel="manifest" href="https://cdn.jsdelivr.net/gh/genizy/polytrack@98ca4cbe31442f57b8ebd05e85254f01a01b49a3/manifest.json" />
 		<meta name="robots" content="noindex, nofollow">
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 	</head>
@@ -14,7 +14,7 @@
 		<canvas id="screen"></canvas>
 		<div id="ui"></div>
 		<div id="transition-layer"></div>
-		<script type="module" src="https://cdn.jsdelivr.net/gh/genizy/polytrack@c380635f829bdfb8ceef43710c4f1907115e9ea7/main.bundle.js" defer></script>
+		<script type="module" src="https://cdn.jsdelivr.net/gh/genizy/polytrack@98ca4cbe31442f57b8ebd05e85254f01a01b49a3/main.bundle.js" defer></script>
 	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"91b719b0491feb29","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"c843b8c381814d58b40d4597a1bf7962"}' crossorigin="anonymous"></script>
 </body>
 </html>
