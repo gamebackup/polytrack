@@ -10236,6 +10236,7 @@
             detectSupport() {
                 return this.isSupported || (this.isSupported = new Promise((function (e) {
                     const t = new Image;
+                    t.crossOrigin = 'anonymous';
                     t.src = "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA", t.onload = t.onerror = function () {
                         e(1 === t.height)
                     }
@@ -10268,6 +10269,7 @@
             detectSupport() {
                 return this.isSupported || (this.isSupported = new Promise((function (e) {
                     const t = new Image;
+                    t.crossOrigin = 'anonymous';
                     t.src = "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAABcAAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAEAAAABAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAMAAAAABNjb2xybmNseAACAAIABoAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAAB9tZGF0EgAKCBgABogQEDQgMgkQAAAAB8dSLfI=", t.onload = t.onerror = function () {
                         e(1 === t.height)
                     }
@@ -19427,6 +19429,7 @@
                     }));
                     return yield new Promise(((e, t) => {
                         const n = new Image;
+                        n.crossOrigin = 'anonymous';
                         n.addEventListener("load", (() => {
                             e()
                         })), n.addEventListener("error", (() => {
@@ -28843,6 +28846,7 @@
             preloadImage(e) {
                 this.addResource();
                 const t = new Image;
+                t.crossOrigin = 'anonymous';
                 t.addEventListener("load", (() => {
                     this.loadedResource()
                 })), t.addEventListener("error", (() => {
