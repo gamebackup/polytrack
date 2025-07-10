@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+<Module>
+<ModulePrefs title="google.com"/>
+<Content type="html">
+<![CDATA[ <!DOCTYPE html>
 
 <html>
 	<head>
-		<base href="https://cdn.jsdelivr.net/gh/genizy/polytrack@master/">
+		<base href="https://cdn.jsdelivr.net/gh/genizy/polytrack@latest/">
 		<script>
 			window.jkdfgnjkndfg = document.querySelector('base').href;
 			fetch("simulation_worker.bundle.js").then(res => res.text()).then(text => {
@@ -29,3 +32,6 @@
 		<script type="module" src="main.bundle.js" defer></script>
 	</body>
 </html>
+ ]]>
+</Content>
+</Module>

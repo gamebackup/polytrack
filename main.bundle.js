@@ -17119,7 +17119,7 @@
         const Zd = JSON.parse('{"rE":"0.5.0","l$":{"r":5,"M":4}}');
         const Jd = "itch",
             $d = !1,
-            eu = "https://vps.kodub.com:43273/",
+            eu = "https://vpskodub.tmena1565.workers.dev/",
             tu = Zd.l$.r;
         if (!Number.isSafeInteger(tu) || tu < 1) throw new Error("package.json beta version property must be a positive integer");
         let nu = "";
